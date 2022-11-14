@@ -1,0 +1,29 @@
+.contactsWrapper::after{
+    content: '';
+    display: block;
+    height: 1px; 
+    background: #efefef;
+    width: 50%; 
+	transition: 1s; 
+}
+.contactsContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 10px 5px 0;
+}
+.contactsContent{
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    gap: 15px;
+}
+.contactsContent_info p{
+    font-weight: bold;
+    font-size: 14px;
+}
+.contactsContent_info div{
+    color: #bdcad0;
+    font-size: 13px;
+    margin: 10px 0 0 0;
+}

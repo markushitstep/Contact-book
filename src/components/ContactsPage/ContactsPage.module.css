@@ -1,0 +1,9 @@
+.contacts{
+    display: flex;
+}
+.contactsFilter{
+    flex: 0 1 40%;
+}
+.contactsContent{
+    flex: 0 1 60%;
+}

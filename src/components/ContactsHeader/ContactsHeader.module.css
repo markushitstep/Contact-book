@@ -1,0 +1,23 @@
+.contactsHeader_blockTitle{
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactsHeader_blockTitle h1{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.contactsHeader_blockSelect{
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blockSelect_selectAll{
+    display: flex;
+    align-items: center;
+}
+.blockSelect_selectAll div{
+    margin-left: 10px;
+}
